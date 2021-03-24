@@ -29,6 +29,11 @@ body {
   width: 400px;
   margin: 0 auto 0;
 }
+.main-header {
+  font-size: 30px;
+  color: #cf2323;
+  text-align: center;
+}
 .task {
   width: 56%;
   display: inline-block;
@@ -147,4 +152,16 @@ ul .edit-mode input[type=text] {
 
 ul .edit-mode label {
   display: none;
+}
+
+/* Footer */
+.footer {
+  display: flex;
+  justify-content: space-between;
+  width: 400px;
+  margin: 0 auto 0;
+}
+.github {
+  text-decoration: none;
+  color: #333;
 }
